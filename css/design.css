@@ -1,0 +1,188 @@
+html,body{
+    margin: 0px;
+    background-color: lightgray;
+    font-family: arial;
+}
+#content{
+    width: 855px;
+    height: 1280px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+/*header section starts here*/
+#header{
+    width: 723px;
+    height: 50px;
+    background-color: rgb(30,40,40);
+    color: white;
+    border: 1px solid black; 
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/*header section ends here*/
+
+/*navigation section starts here*/
+#nav-container{
+    width: 797px;
+    height: 42px;
+    border-width: 1px 1px 5px 1px;
+    border-style: solid;
+    border-bottom-color: rgb(230,230,230);
+    background-color: rgb(30,120,180);
+    padding: 0px 0px 0px 56px;
+    font-size: 12px;
+}
+/*navigation section ends here*/
+
+/*main-content section starts here*/
+#main-content{
+    width: 575px;
+    height: 990px;
+    background-color: rgb(250,250,250);
+}
+.nav{
+    width: 503px;
+    height: 108px;
+    padding: 0px 0px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.create-acc{
+    width: 473px;
+    height: 148px;
+    padding: 0px 30px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+    
+}
+.contact-info{
+    width: 473px;
+    height: 198px;
+    padding: 0px 30px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.billing-con{
+    width: 473px;
+    height: 268px;
+    padding: 0px 30px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.secure-billing{
+    width: 473px;
+    height: 178px;
+    padding: 0px 30px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.register{
+    width: 473px;
+    height: 78px;
+    padding: 0px 30px 0px 70px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+/*main-content section ends here*/
+
+/*aside section starts here*/
+#aside{
+    width: 278px;
+    height: 990px;
+    left : 575px;
+    border-left: 2px solid rgb(239,240,242);
+    background-color: rgb(250,250,250);
+}
+.info-details{
+    width: 276px;
+    height: 117px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+    padding: 11px 0px 0px 0px;
+}
+.acc-details{
+    width: 276px;
+    height: 128px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.contact-details{
+    width: 276px;
+    height: 198px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.bill-details{
+    width: 276px;
+    height: 268px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.secure-details{
+    width: 276px;
+    height: 178px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+.reg-details{
+    width: 276px;
+    height: 78px;
+    border-left: 1px solid rgb(250,250,250);
+    border-top: 1px solid rgb(250,250,250);
+    border-bottom: 1px solid rgb(250,250,250);
+    border-right: 1px solid rgb(250,250,250);
+}
+/*aside section ends here*/
+
+/*address section starts here*/
+#address{
+    width: 735px;
+    height: 150px;
+    background-color: rgb(222,231,240);
+    padding-left: 80px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+/*address section ends here*/
+
+/*footer section starts here*/
+#footer{
+    width: 735px;
+    height: 30px;
+    background-color: rgb(30,40,40);
+    padding-left: 80px;
+    padding-right: 40px;
+}
+/*footer section ends here*/

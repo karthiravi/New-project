@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SendGrid</title>
+        <link rel="stylesheet" href="css/design.css" type="text/css"/> 
+        <link rel="stylesheet" href="css/innerdesign.css" type="text/css"/>
+        <script type="text/javascript" src="js/validation.js"></script>
+    </head>
+    <body> 
+        <div id="content">
+            <!--header section starts here-->
+            <div id="header">
+                <ul>
+                    <li class="f-l lar"> <b>SendGrid</b> </li>
+                    <li class="f-r"><a href="#Sign Up">Sign In</a></li>
+                    <li class="f-r"><a href="#Support">Support</a></li>
+                    <li class="f-r"><a href="#Sign In">Sign Up</a></li>
+                </ul>
+            </div>
+            <!--header section ends here-->
+            
+            <!--navigation section starts here-->
+            <div id="nav-container">
+                <ul class="a1">
+                    <li class="a1"><a href="#HOME" class="a1">HOME</a></li>
+                    <li class="a1"><a class="active a1" href="#PRICING & SIGN UP">PRICING & SIGN UP</a></li>
+                    <li class="a1"><a href="#TESTIMONIALS" class="a1">TESTIMONIALS</a></li>
+                    <li class="a1"><a href="#TOUR" class="a1">TOUR</a></li>
+                </ul>
+            </div>
+            <!--navigation section ends here-->
+            
+            <!--main-content section starts here-->
+            <div id="main-content">
+                <div class="nav">
+                    <ul class="a2">
+                        <li class="a2"><a href="#choose a plan" class="a2">Choose a Plan></a></li>
+                        <li class="a2"><a class="active a2" href="#sign up">Sign Up></a></li>
+                        <li class="a2"><a href="#get started" class="a2">Get Started!</a></li>
+                    </ul> 
+                    <div class="larg"><b>Sign Up for Our Silver Package</b></div>
+                </div>
+                <div class="create-acc">
+                    <h4 class="m2">Create Your Account</h4><hr/>
+                    <form class="text-r p1" onsubmit="return(Submit());" name="create_acc_form">
+                        <ul>
+                            <li><span class="p3"><strong>Account Email</strong></span><input type="text" name="email_id" id="email-id" placeholder="Email-Id" value="" class="p2" onclick="ValidateEmail(document.create_acc_form)"/></li>
+                            <li><span class="p3"><strong>Password</strong></span><input type="password" name="email_password" id="e-password" placeholder="Password" value="" class="p2" /></li>
+                        </ul>    
+                    </form>   
+                </div>
+                <div class="contact-info">
+                    <h4 class="m2">Contact Information</h4><hr/>
+                    <form class="text-r p1" onsubmit="return(Submit());" name="contact_information_form">
+                        <ul>
+                            <li><span class="p3"><strong>Your Full Name</strong></span><input type="text" name="full_name" class="p2" maxlength="20" value="" placeholder="Name" id="newfirst"/></li>
+                            <li><span class="p3"><strong>Contact Email</strong></span><input type="text" name="contact_id" placeholder="Email-Id" class="p2" id="un_id" value="" /></li>
+                            <li><span class="p3"><strong>Phone</strong></span><input type="text" name="ph_no" placeholder="Phone Number" class="p2"/></li>
+                        </ul>
+                    </form>  
+                </div>
+                <div class="billing-con">
+                    <h4 class="m2">Billing Contact Information</h4><hr/>
+                    <form class="text-r b3" onsubmit="return(Submit());" name="billing_contact_form">
+                       <span class="p3"><strong>Company Name</strong></span><input type="text" name="company_name" placeholder="Company Name" value="" class="b1" />
+                    </form>
+                    <form class="text-r" onsubmit="return(Submit());" name="billing_address_form">
+                        <span class="sm1">STREET</span><br>
+                        <span class="p3"><strong>Billing Address</strong></span><input type="text" name="bill_address_street" placeholder="Street" value="" class="b2" />
+                        <span class="sm2">CITY</span><span class="sm3">STATE</span><span class="sm4">ZIP</span>
+                        <input type="text" name="bill_address_city" placeholder="City" value="" class="b4" />
+                        <input type="text" name="bill_address_state" placeholder="State" value="" class="b5" />
+                        <input type="text" name="bill_address_zip" placeholder="Zip" value="" class="b6" /><br>
+                    </form>
+                    <form class="text-r b8" onsubmit="return(Submit());" name="billing_country_form">
+                        <span class="sm5">COUNTRY</span><br>
+                        <ul>
+                            <li><select id="country" name="country" class="b7">
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="India">India</option>
+                                </select></li>
+                        </ul>
+                    </form>  
+                
+                </div>
+                <div class="secure-billing">
+                    <h4 class="m2">Secure Billing Information</h4><hr/>
+                    <form name="secure_billing" class="text-r b3">
+                        <ul>
+                            <li><span class="p3"><strong>Card Number</strong></span><input type="text" name="card_number" class="s1" /></li>
+                            <li><span class="p3"><strong>Expiration Date</strong></span>
+                                <select name="expiration_date" class="s2" >
+                                    <option>1-January</option>
+                                    <option>2-January</option>
+                                    <option>3-January</option>
+                                </select>
+                                <select name="expiration_year" class="s3" >
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                </select></li>
+                            <li><span class="font"><input type="checkbox" name="agree" value="on"> I agree to the <a href="#terms of service">terms of service</a></span></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="register">
+                    <form class="text-c">
+                        <hr/>
+                        <input type="submit" value="Register" class="reg" onclick="Submit()" />
+                    </form>
+                </div>
+            </div>
+            <!--main-content section ends here-->
+            
+            <!--aside section starts here-->
+            <div id="aside">
+                <div class="info-details">
+                    <div class="package">
+                        <h2 class="m1">SILVER PACKAGE</h2>
+                        <p>500,000 email credits<br/>0.00075 per additional email<br/>$79 per month subscription</p>
+                    </div>
+                 
+                </div>
+                <div class="acc-details">
+                    <p class="p4">This email address will be used to log in and for your smtp access setup</p>                 
+                </div>
+                <div class="contact-details">
+                    <p class="p5">We will use this email address to contact you about your account.
+                        Make sure you have access to it for confirmation on the next step.</p>
+                </div>
+                <div class="bill-details"></div>
+                <div class="secure-details">
+                    <p class="p6">We will bill you $79 plus $0.00075 per email sent over your 50,000 credits every month.
+                        You can change plans or cancel at any time.</p>
+                        <p class="p6">your first payment will be on <strong>February 7th,2011.</strong></p>
+                </div>
+                <div class="reg-details"></div>
+            </div>
+            <!--aside section ends here-->
+            
+            <!--address section starts here-->
+            <div id="address">
+                <div class="sendgrid">
+                    <ul>
+                        <li><h4>SendGrid</h4></li>
+                       <li><a href="#Tour">Tour</a></li>
+                       <li><a href="#Pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="community">
+                    <ul>
+                        <li><h4>Community</h4></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#Twitter">Twitter</a></li>
+                        <li><a href="#Forum">Forum</a></li>
+                    </ul>    
+                </div>
+                <div class="support">
+                    <ul>
+                        <li><h4>Support</h4></li>
+                        <li><a href="#Documentation">Documentation</a></li>
+                        <li><a href="#Report Spam">Report Spam</a></li>
+                        <li><a href="#Contact Us">Contact Us</a></li>
+                    </ul>    
+                </div>
+                <div class="company">
+                    <ul>
+                        <li><h4>Company</h4></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Our Team">Our Team</a></li>
+                        <li><a href="#Job">Jobs</a></li>
+                        <li><a href="#Press">Press</a></li>
+                    </ul>    
+                </div>
+                <div class="connect-withUs">
+                    <ul>
+                        <li><h4>Connect with Us</h4></li>
+                        <li><img src="image/facebook.png" width="25" height="25" title="facebook" alt="facebook"/>
+                            <img src="image/twitter.png" width="25" height="25" title="twitter" alt="twitter"/></li>
+                        <li class="im">Switch to <a href="#classic site">classic site</a></li>
+                    </ul>    
+                </div>
+            </div>
+            <!--address section ends here-->
+            
+             <!--footer section starts here-->
+            <div id="footer">
+                <ul class="a3">
+                    <li class="a3">&copy;2011 Send Grid</li>
+                    <li class="a3"><a href="#Contact-Us" class="pad1">Contact Us</a></li>
+                    <li class="a3"><a href="#Our-Team">Our Team</a></li>
+                    <li class="a3"><a href="#Jobs">Jobs</a></li>
+                    <li class="a3"><a href="#Privace Policy">Privacy Policy</a></li>
+                    <li class="a3"><a href="#Email Policy">Email Policy</a></li>
+                    <li class="a3"><a href="#Terms of Service">Terms of Service</a></li>
+                    <li class="a3"><a href="#Help" class="pad2">Help</a></li>
+                    <li class="a3"><a href="#Support" class="pad3">Support</a></li>
+                    <li class="a3">&#9650;</li>
+                    <li class="a4"><a href="#header" class="a4">Top</a></li>
+                </ul>
+            </div>
+            <!--footer section ends here-->
+        </div>
+    </body>
+</html>
